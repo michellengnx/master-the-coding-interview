@@ -5,14 +5,17 @@
 
 def anotherFunction():
     print('anotherFunction')
+
+
 def funChallenge(input):
     x = 10
     a = 50 + 3
     for x in input:
         anotherFunction()
         stranger = True
-        a=a+1
+        a = a + 1
     return a
+
 
 # Challenge 2
 # The below funChallenge function has O(n) - linear time complexity
@@ -33,10 +36,6 @@ def anotherFunChallenge(input):
         q = j * 2
     # 1
     whoAmI = "I don't know"
-
-
-if __name__ == '__main__':
-    funChallenge('Michelle')
 
 #
 
